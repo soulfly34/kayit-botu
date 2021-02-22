@@ -40,20 +40,20 @@ client.on('ready', () => {
     console.log(`Bot ${client.user.tag} Adı İle Giriş Yaptı!`);
 })
 client.config = {
-    token: '',//token
-    voiceChannel: '',//ses kanalı
-    vipRoles: [''],//vip rolleri
-    boosterRoles: '',//boosterrolü
+    token: '',// token
+    voiceChannel: '',// ses kanalı
+    vipRoles: [''],// vip rolleri
+    boosterRoles: '',// booter rolü
     ekipRoles: [''],//taglı rolü
-    unregisteres: ['', ''],//kayıtsız rolü
-    maleRoles: ['', '', ''],//erkek rolleri
-    girlRoles: ['', '', ''],//kız rolleri
+    unregisteres: ['', ''],// kayıtsız rolü
+    maleRoles: ['', '', ''],// erkek rolleri
+    girlRoles: ['', '', ''],// kız rolleri
     mods: [''],//mod rolleri
     chat: '',//chat idsi
     channelID: '',//kayıt kanalı id
     tag: '',//tag
     guildID: '',//sunucu id
-    taglog: '',//tag lod id
+    taglog: '',//tag lod kanal id
 }
 
 
